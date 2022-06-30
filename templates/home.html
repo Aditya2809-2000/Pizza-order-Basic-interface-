@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Pizza Projct by KS</title>
+	<style>
+	* {font-size=30px; font=family: Curlz MT;}
+		body{background-color: lightblue;}
+	</style>
+</head>
+<body>
+<center>
+<h1> Place your order</h1>
+<form action="/save" method="POST">
+<input type="text" name="name" placeholder="enter name" required>
+<br<br>
+<input type="number" name="phone" placeholder="enter phone number" required>
+<br><br>
+<label>Select Pizza Size</label>
+<br>
+<input type="radio" name="r1" value="small">Small</input>
+<input type="radio" name="r1" value="medium" checked>Medium</input>
+<input type="radio" name="r1" value="large">Large</input>
+<br><br>
+<label>Select Pizza Toppings</label>
+<br>
+<input type="checkbox" name="to" value="tomato">Tomato</input>
+<input type="checkbox" name="oi" value="onion">Onion</input>
+<input type="checkbox" name="co" value="corn">Corn</input>
+<input type="checkbox" name="ch" value="cheese">Cheese</input>
+<br><br>
+<input type="submit" value="Place Order">
+</form>
+<pre> {{ m }}</pre>
+</center>
+</body>
+</html>
